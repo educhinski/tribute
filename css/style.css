@@ -86,8 +86,10 @@ body {
 
 #my_footer p {
     font-size: 15px;
-    margin: 10px;
-    /* padding: 2px; */
+    display: inline;
+    position: relative;
+    top: 10px;
+    padding-bottom: 10px;
 }
 
 #my_footer a {
@@ -102,7 +104,7 @@ body {
 }
 
 #my_footer img {
-    padding: 2px 3px;
+    padding: 4px;
     position: absolute;
 }
 
@@ -114,7 +116,6 @@ body {
     }
 
     #main {
-        margin: 0;
         text-align: center;
     }
 
@@ -125,5 +126,10 @@ body {
 
     #main blockquote {
         margin-left: 30px;
+    }
+
+    #my_footer p {
+        left: -12%;
+        text-align: center;
     }
 }
