@@ -84,13 +84,16 @@ body {
     margin-bottom: 5px;
 }
 
+#my_footer {
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+}
+
 #my_footer p {
     font-size: 15px;
     display: inline;
     position: relative;
-    top: 10px;
-    padding-bottom: 10px;
-    left: -5%;
 }
 
 #my_footer a {
@@ -105,7 +108,7 @@ body {
 }
 
 #my_footer img {
-    padding: 4px;
+    padding: 2px 3px;
     position: absolute;
 }
 
@@ -113,14 +116,14 @@ body {
 @media only screen and (max-width: 400px) {
     body {
         width: 100%;
-        margin-left: 5%;
     }
 
     #main {
+        width: 90%;
+        margin: 0 5%;
         text-align: center;
     }
 
-    #main,
     #main blockquote p {
         margin-left: 8px;
     }
@@ -128,9 +131,10 @@ body {
     #main blockquote {
         margin-left: 30px;
     }
+}
 
+@media only screen and (max-width: 768px) {
     #my_footer p {
-        left: -12%;
-        text-align: center;
+        left: -5%;
     }
 }
